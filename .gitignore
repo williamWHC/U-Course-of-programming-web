@@ -1,0 +1,32 @@
+# Node modules (instalados via npm)
+node_modules/
+
+# Arquivos de build/output (caso use alguma task como Gulp, Parcel etc.)
+dist/
+build/
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ambientes e variáveis (se vier a usar)
+.env
+.env.local
+.env.*.local
+
+# VS Code configs
+.vscode/
+
+# Sistema operacional (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+
+# Cache de ferramentas
+.cache/
